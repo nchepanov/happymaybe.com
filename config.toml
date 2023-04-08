@@ -20,6 +20,9 @@ copyright = "© Copyright"
 	# Site color - dark/light/auto
 	mode = "auto"
 
+	customCSS = "css/enhance.css"
+	# customDarkCSS = "css/enhance-dark.css"
+
 	# Enable a table of contents
 	toc = true
 
