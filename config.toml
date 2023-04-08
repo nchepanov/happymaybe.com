@@ -1,4 +1,4 @@
-baseURL = "http://happymaybe.com/"
+baseURL = "https://happymaybe.netlify.app/"
 languageCode = "en-us"
 title = "Happy Maybe Podcast"
 theme = "ink-free"
