@@ -1,7 +1,7 @@
 ---
 title: "About"
-date: 2019-04-19T21:37:58+05:30
+date: 2023-04-08T13:59:56-05:00
 type: "page"
 ---
 
-This is some static page where you can write about yourself.
+Happy Maybe is a conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life. From cultural adaptation to navigating life's obstacles, they explore existential issues and the complex nature of happiness.

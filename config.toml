@@ -1,18 +1,16 @@
-baseURL = "http://example.org/"
+baseURL = "http://happymaybe.com/"
 languageCode = "en-us"
-title = "Ink-Free"
+title = "Happy Maybe Podcast"
 theme = "ink-free"
-paginate = 5
+paginate = 99
 
 copyright = "© Copyright notice"
-# Demo only
-#ignoreErrors = ["error-missing-instagram-accesstoken"]
 
 [permalinks]
   posts = "/:year/:month/:title"
 
 [params]
-	subtitle = "Crisp, minimal, privacy-conscious personal [blog theme for Hugo](https://github.com/chollinger93/ink-free)"
+	subtitle = "A conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life."
 
 	# Optional 64x64 avatar image.
 	#avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
@@ -38,7 +36,7 @@ copyright = "© Copyright notice"
 	]
 
 	# Github base url
-	github = "https://github.com/chollinger93/ink-free"
+	github = "https://github.com/nchepanov/happymaybe.com"
 
 
 # Nav.
