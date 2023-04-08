@@ -11,6 +11,7 @@ copyright = "© Copyright"
 
 [params]
 	subtitle = "A conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life."
+	description = "A conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life."
 
 	# podcast artwork image
 	ogimage = "/images/happy-maybe-artwork-1.jpg"
