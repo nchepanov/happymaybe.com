@@ -4,7 +4,7 @@ title = "Happy Maybe Podcast"
 theme = "ink-free"
 paginate = 99
 
-copyright = "© Copyright notice"
+copyright = "© Copyright"
 
 [permalinks]
   posts = "/:year/:month/:title"
@@ -59,11 +59,6 @@ weight = 3
 name = "Tags"
 url = "/tags"
 weight = 4
-
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/chollinger93/"
 
 [[params.social]]
 name = "RSS"
