@@ -7,7 +7,7 @@
  ### 1. Cloning + Running Locally
 
  - Clone this repo with one of these options:
- - Start the Hugo sever `hugo server -D`
+ - Start the Hugo sever `hugo serve` (assuming `brew install hugo`)
 
   > Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s by running the `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
 
@@ -21,10 +21,11 @@
 
 ## Adding an episode
 
-> THIS IS A WORK IN PROGRESS
+* Add the mp3 to `episodes/`
+* `git commit -am "New episode audio file" && git push origin main`
+* Update the XML feed with the episode URL
 
-* Use `git lfs` to upload new episode
-* Run a script to regenerate `posts/` based on the podcast XML
+* Run a script (DOES NOT EXIST YET) to regenerate `posts/` based on the podcast XML
 * `git commit -am "New episode" && git push origin main`
 
 ## Testing
