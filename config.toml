@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Happy Maybe Podcast"
 theme = "ink-free"
 paginate = 99
-
+ignoreErrors = ["error-remote-getjson"]
 copyright = "© Copyright"
 
 [permalinks]
@@ -53,8 +53,8 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
-url = "/posts"
+name = "Tags"
+url = "/tags"
 weight = 2
 
 [[menu.main]]
@@ -62,10 +62,7 @@ name = "About"
 url = "/about"
 weight = 3
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+
 
 [[params.social]]
 name = "RSS"
