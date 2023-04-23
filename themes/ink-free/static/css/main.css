@@ -326,17 +326,17 @@ ul {
 
 .post-header .meta .date {
     margin-right: 30px;
-    width: 64px;
+    width: 78px;
     text-align: center;
 }
 
 .post-header .meta .date .day {
     font-family: "Playfair Display", serif;
     font-weight: 700;
-    line-height: 0.45em;
     font-size: 3em;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
+    margin-top: 12px;
 }
 
 .post-header .meta .date .rest {
