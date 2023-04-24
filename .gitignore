@@ -3,3 +3,6 @@
 
 # Package Files
 node_modules/
+
+# macOS files
+.DS_Store
