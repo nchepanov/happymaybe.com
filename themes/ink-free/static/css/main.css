@@ -251,7 +251,11 @@ ul {
 
 .header .site-title {
     margin: 0 0 10px 0;
-    padding: 20px 0 0 0;
+    padding: 0 0;
+}
+
+.header .site-title img {
+    margin: 0;
 }
 
 .site-title a {
@@ -357,6 +361,10 @@ ul {
 
 .post-header h1.title {
     margin: -10px 0 0 0;
+}
+
+.post-header h3 {
+    text-transform: uppercase;
 }
 
 .post .title.small {
