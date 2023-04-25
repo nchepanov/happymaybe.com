@@ -347,12 +347,12 @@ ul {
 }
 
 .post-header .meta .date .day {
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 3em;
     display: block;
     margin-bottom: 6px;
     margin-top: 12px;
+    color: #1f1d19;
 }
 
 .post-header .meta .date .rest {
@@ -395,6 +395,42 @@ ul {
     font-size: 0.85em;
     text-decoration: none;
     margin: 0 10px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .post {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .meta,
+    .matter {
+        width: 100%;
+    }
+
+    .post-header .meta .date {
+        display: flex;
+        width: 100%;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+
+    .post-header .meta .date .day {
+        margin-right: 10px;
+    }
+
+    .date,
+    .title,
+    .description {
+        display: block;
+    }
 }
 
 .list .posts .post-header .meta {
@@ -469,7 +505,7 @@ ul {
     }
 
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     h4 {
