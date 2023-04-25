@@ -2,7 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #333;
-    line-height: 1.8em;
+    line-height: 1.6em;
     font-size: 17px;
     background: #140f0a url('/images/background-happy.jpg') fixed;
     background-position: center;
@@ -250,12 +250,13 @@ ul {
 }
 
 .header .site-title {
-    margin: 0 0 10px 0;
+    margin: 0 0;
     padding: 0 0;
 }
 
 .header .site-title img {
     margin: 0;
+    max-width: 320px;
 }
 
 .site-title a {
