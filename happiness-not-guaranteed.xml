@@ -1,59 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed"  >
       <channel>
-          <title>Happiness Not Guaranteed</title>
+          <title>Happy Maybe</title>
           
-          <description><![CDATA[Two friends discuss existential issues of life, free will, and overcoming obstacles, sometimes getting lost in questions and solutions.]]></description>
-          <itunes:image href="https://happiness-not-guaranteed.ghost.io/content/images/size/w720/2023/01/photo1674314861.jpeg"/>
-          <language>en-us</language>
-          <copyright>Vakity</copyright>
-          <link>https://happiness-not-guaranteed.ghost.io/</link>
+          <description><![CDATA[Happy Maybe is a conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life. From cultural adaptation to navigating life&apos;s obstacles, they explore existential issues and the complex nature of happiness.]]></description>
+          <itunes:image href="https://happymaybe.com/images/happy-maybe-artwork-2.jpg"/>
+          <language>en</language>
+          <copyright>Happy Maybe LOL</copyright>
+          <link>https://www.happymaybe.com/</link>
           <image>
-              <url>https://happiness-not-guaranteed.ghost.io/content/images/size/w720/2023/01/photo1674314861.jpeg</url>
-              <title>Happiness Not Guaranteed</title>
-              <link>https://happiness-not-guaranteed.ghost.io/</link>
+              <url>https://happymaybe.com/images/happy-maybe-artwork-2.jpg</url>
+              <title>Happy Maybe</title>
+              <link>https://www.happymaybe.com/</link>
           </image>
-          <itunes:summary><![CDATA[Two friends discuss existential issues of life, free will, and overcoming obstacles, sometimes getting lost in questions and solutions.]]></itunes:summary>
-          <itunes:subtitle></itunes:subtitle>
+          <itunes:summary><![CDATA[Happy Maybe is a conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life. From cultural adaptation to navigating life&apos;s obstacles, they explore existential issues and the complex nature of happiness.]]></itunes:summary>
+          <itunes:subtitle>Two friends discuss existential issues of life, free will, and overcoming obstacles, sometimes getting lost in questions and solutions.</itunes:subtitle>
           
           <itunes:owner>
               <itunes:name>Vasily Myazin and Nikita Chepanov</itunes:name>
-              <itunes:email>podcasthng@gmail.com</itunes:email>
+              <itunes:email>vmyazin@icloud.com</itunes:email>
           </itunes:owner>
           <itunes:author>Vasily Myazin and Nikita Chepanov</itunes:author>
           
-          <itunes:category text="Society and Culture">
-              <itunes:category text="Philosophy" />
+          <itunes:category text="Religion and Spirituality">
+              <itunes:category text="Spirituality" />
           </itunes:category>
-          <itunes:keywords>psychology</itunes:keywords>
+        <itunes:category text="Society and Culture">
+              <itunes:category text="Personal Journals" />
+            <itunes:category text="Philosophy" />
+          </itunes:category>
+          <itunes:keywords>meaning, existentialism </itunes:keywords>
           <itunes:explicit>false</itunes:explicit>
           
+  
           <item>
-              <title>Episode Two</title>
-              <itunes:subtitle></itunes:subtitle>
+              <title>Inspiration vs. Discipline</title>
+              <itunes:subtitle>Vasily and Nikita discuss the connection between inspiration, discipline, and happiness, sharing personal struggles and insights on maintaining motivation in a mindful and engaging episode.</itunes:subtitle>
               
-              <description><![CDATA[<p>Vasily and Nikita talked about how take a side when there's are only two choices and neither of them is good.</p>]]></description>
-              <enclosure type="audio/mpeg" url="https://hosting.net/audio.mp3" length="0"/>
-              <guid>6bc4c916-d97f-4815-bad6-411b03379c26</guid>
+              <description><![CDATA[<p>In this episode of Happy Maybe, Vasily and Nikita engage in a freeform conversation about the connection between inspiration, discipline, and our pursuit of happiness. Nikita shares how his recent trip to Costa Rica inspired him, but his motivation has since waned. Vasily discusses his personal struggle with maintaining a consistent meditation practice and suggests reading books as a more mindful alternative to mindlessly scrolling through social media.</p><p>Tune in to this episode and join the freeform conversation between two friends as they share their insights on what drives us towards happiness.</p><p><strong>Links:</strong></p><ul><li><p>Old Chinese tale “The Story of the Old Man and His Horse" (that the hosts called “The Maybe Tale”, LOL) <a target="_blank" rel="noopener noreferrer nofollow" href="https://en.wikipedia.org/wiki/The_old_man_lost_his_horse">https://en.wikipedia.org/wiki/The_old_man_lost_his_horse</a>&nbsp;</p></li><li><p>Internal Family Systems <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.psychologytoday.com/us/therapy-types/internal-family-systems-therapy">https://www.psychologytoday.com/us/therapy-types/internal-family-systems-therapy</a></p></li></ul><p></p>]]></description>
+              <enclosure type="audio/mpeg" url="https://github.com/nchepanov/happymaybe.com/raw/main/episodes/hm-003.mp3" length="36863809"/>
+              <guid>e5464aea-7bd3-4e6c-a66d-68f5ec046297</guid>
               
-              <itunes:duration>21:0</itunes:duration>
+              <itunes:duration>21:45</itunes:duration>
               <itunes:explicit>false</itunes:explicit>
               
-              <pubDate>Sun, 22 Jan 2023 06:12 UTC</pubDate>
+              <pubDate>Wed, 1 Mar 2023 14:22 UTC</pubDate>
           </item>
-
-          <item>
-              <title>Taking Neither Side</title>
-              <itunes:subtitle></itunes:subtitle>
+        <item>
+              <title>The Integration Equation</title>
+              <itunes:subtitle>Vasily and Nikita share personal experiences and insights on the challenges of cultural integration and navigating identity as immigrants in a heartfelt and thought-provoking episode.</itunes:subtitle>
               
-              <description><![CDATA[<p>Vasily and Nikita talked about how take a side when there's are only two choices and neither of them is good.</p>]]></description>
-              <enclosure type="audio/mpeg" url="https://hosting.net/audio.mp3" length="0"/>
-              <guid>6bc4c916-d97f-4815-bad6-411b02779c26</guid>
+              <description><![CDATA[<p>In this episode of Happy Maybe, Vasily and Nikita explore the challenges of having an identity as an immigrant. They delve into the complex process of cultural integration and discuss how it can be a never-ending struggle that lasts for years. Drawing from their own experiences, Vasily and Nikita share insights on how to navigate the ups and downs of adapting to a new culture and finding a sense of belonging.</p><p>Tune in to this freeform conversation between two friends for a heartfelt and thought-provoking discussion on what it means to have an identity shaped by immigration.</p><p><strong>Links:</strong></p><ul><li><p>Gogol Bordello (band) <a target="_blank" rel="noopener noreferrer nofollow" href="https://en.wikipedia.org/wiki/Gogol_Bordello">https://en.wikipedia.org/wiki/Gogol_Bordello</a>&nbsp;</p></li></ul>]]></description>
+              <enclosure type="audio/mpeg" url="https://github.com/nchepanov/happymaybe.com/raw/main/episodes/hm-002.mp3" length="26113209"/>
+              <guid>78c1b49d-e2ad-46bf-95bd-f1d499b94469</guid>
               
-              <itunes:duration>20:0</itunes:duration>
+              <itunes:duration>15:14</itunes:duration>
               <itunes:explicit>false</itunes:explicit>
               
-              <pubDate>Sun, 22 Jan 2023 06:12 UTC</pubDate>
+              <pubDate>Fri, 17 Feb 2023 13:20 UTC</pubDate>
+          </item>
+        <item>
+              <title>Less-Than-Ideal Choices</title>
+              <itunes:subtitle>Vasily and Nikita explore the complexities of making tough choices in a world of competing perspectives in the debut episode.</itunes:subtitle>
+              
+              <description><![CDATA[<p>In the debut episode of Happy Maybe (which was still an unnamed podcast at the time of the recording), Vasily and Nikita dive into a nuanced conversation about the difficulties of taking sides when faced with two less-than-ideal options. From navigating personal relationships to grappling with divisive political issues, they explore the complexities of making tough choices.</p><p>Join them for a gripping conversation on how to find a way forward in a world of competing perspectives.</p><p><strong>Links:</strong></p><ul><li><p>Nikita’s blog <a target="_blank" rel="noopener noreferrer nofollow" href="https://chepanov.com/">https://chepanov.com/</a>&nbsp;</p></li><li><p>Peace Pilgrim (book) <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.peacepilgrim.org/translations">https://www.peacepilgrim.org/translations</a>&nbsp;</p></li></ul>]]></description>
+              <enclosure type="audio/mpeg" url="https://github.com/nchepanov/happymaybe.com/raw/main/episodes/hm-001.mp3" length="37604138"/>
+              <guid>c6654670-7123-4d23-9519-6f6091c33dd6</guid>
+              
+              <itunes:duration>25:28</itunes:duration>
+              <itunes:explicit>false</itunes:explicit>
+              
+              <pubDate>Wed, 1 Feb 2023 15:23 UTC</pubDate>
           </item>
             
       </channel>

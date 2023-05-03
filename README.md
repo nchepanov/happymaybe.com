@@ -46,7 +46,7 @@ In order to keep our project up-to-date with dependencies we use a tool called 
 
 ## Regenerating all episodes
 
-* (optional) curl the xml from the web
+* (optional) curl the xml from the web `curl https://www.indeecast.com/api/v2/podcast/published/1403141 > happiness-not-guaranteed.xml`
 * delete prior episodes: `rm -rf ./content/posts/*m`
 * run `./script/generate.py happiness-not-guaranteed.xml`
 * test: `hugo serve`
