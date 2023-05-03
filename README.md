@@ -42,3 +42,15 @@ If your team is not interested in this tooling, you can remove them with ease!
 ### Removing Renovate
 
 In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
+
+
+## Regenerating all episodes
+
+* (optional) curl the xml from the web
+* delete prior episodes: `rm -rf ./content/posts/*m`
+* run `./script/generate.py happiness-not-guaranteed.xml`
+* test: `hugo serve`
+
+There's a known issue where `<p>` tags are not correctly understood by `.md` parser
+so the description stays empty.
+
