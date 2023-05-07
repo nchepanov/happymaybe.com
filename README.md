@@ -14,7 +14,7 @@
 ### 2. Deploying
  - Install the Netlify CLI globally `npm install netlify-cli -g`
     
- - Run `hugo`
+ - Run `hugo serve`
 
  - Then use the `netlify deploy` for a deploy preview link or `netlify deploy --prod` to deploy to production
 
