@@ -4,9 +4,7 @@ body {
     color: #333;
     line-height: 1.6em;
     font-size: 17px;
-    background: #140f0a url('/images/background-happy.jpg') fixed;
-    background-position: center;
-    background-size: cover;
+    background-color: white;
 }
 
 a {
