@@ -34,6 +34,19 @@
           
   
           <item>
+              <title>When Success Isn&apos;t Enough</title>
+              <itunes:subtitle>In Episode 4, Vasily and Nikita challenge societal expectations by exploring the complexities of finding happiness amidst the pressure to constantly strive for self-improvement and professional success.</itunes:subtitle>
+              
+              <description><![CDATA[<p>In this episode of Happy Maybe, Vasily and Nikita engage in a freeform conversation about the complexities of finding happiness and satisfaction in a seemingly "perfect" life. They explore the pressures of constantly striving for self-improvement and question whether the pursuit of professional success always leads to happiness. They also delve into the dilemma of whether to push for a salary raise or accept the status quo. Join them for a thought-provoking conversation that challenges our assumptions about what truly matters in life.</p><p><strong>Links:</strong></p><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://news.harvard.edu/gazette/story/2020/09/joseph-henrich-explores-weird-societies/&nbsp;">On WEIRD societies</a></p></li><li><p>Nikita’s blog post <a target="_blank" rel="noopener noreferrer nofollow" href="https://chepanov.com/irreconcilable-differences/&nbsp;">on toxic positivity</a></p><p></p></li></ul>]]></description>
+              <enclosure type="audio/mpeg" url="https://github.com/nchepanov/happymaybe.com/raw/main/episodes/hm-004.mp3" length="24750763"/>
+              <guid>915e9815-c026-422e-8697-f68a075654df</guid>
+              
+              <itunes:duration>14:0</itunes:duration>
+              <itunes:explicit>false</itunes:explicit>
+              
+              <pubDate>Thu, 4 May 2023 03:00 UTC</pubDate>
+          </item>
+        <item>
               <title>Inspiration vs. Discipline</title>
               <itunes:subtitle>Vasily and Nikita discuss the connection between inspiration, discipline, and happiness, sharing personal struggles and insights on maintaining motivation in a mindful and engaging episode.</itunes:subtitle>
               
@@ -44,7 +57,7 @@
               <itunes:duration>21:45</itunes:duration>
               <itunes:explicit>false</itunes:explicit>
               
-              <pubDate>Wed, 1 Mar 2023 14:22 UTC</pubDate>
+              <pubDate>Wed, 1 Mar 2023 11:22 UTC</pubDate>
           </item>
         <item>
               <title>The Integration Equation</title>
@@ -57,7 +70,7 @@
               <itunes:duration>15:14</itunes:duration>
               <itunes:explicit>false</itunes:explicit>
               
-              <pubDate>Fri, 17 Feb 2023 13:20 UTC</pubDate>
+              <pubDate>Fri, 17 Feb 2023 10:20 UTC</pubDate>
           </item>
         <item>
               <title>Less-Than-Ideal Choices</title>
@@ -70,7 +83,7 @@
               <itunes:duration>25:28</itunes:duration>
               <itunes:explicit>false</itunes:explicit>
               
-              <pubDate>Wed, 1 Feb 2023 15:23 UTC</pubDate>
+              <pubDate>Wed, 1 Feb 2023 12:23 UTC</pubDate>
           </item>
             
       </channel>

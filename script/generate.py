@@ -10,6 +10,7 @@ from typing import Optional, List
 @dataclass
 class Episode:
     title: str
+    episode_audio_url: str
     subtitle: str
     duration: str
     description: str
@@ -19,8 +20,11 @@ class Episode:
 TEMPLATE = """\
 ---
 title: {title}
+number: {number}
+duration: {duration}
 date: {published}
 description: {subtitle}
+episode_audio_url: {episode_audio_url}
 tags: []
 ---
 
@@ -30,10 +34,7 @@ tags: []
 
 def format_datetime(dt: datetime) -> str:
     # Format the datetime object as a string
-    formatted_dt = dt.strftime("%Y-%m-%dT%H:%M:%S%z")
-
-    # Add the colon in the timezone offset
-    return formatted_dt[:-2] + ":" + formatted_dt[-2:]
+    return dt.strftime("%Y-%m-%d")
 
 
 def render_episodes(episodes: List[Episode]) -> None:
@@ -42,6 +43,9 @@ def render_episodes(episodes: List[Episode]) -> None:
             episode_file.write(
                 TEMPLATE.format(
                     title=json.dumps(episode.title).replace("#", ""),
+                    episode_audio_url=episode.episode_audio_url,
+                    number=number + 1,
+                    duration=episode.duration.strftime("%M min"),
                     published=format_datetime(episode.published),
                     subtitle=json.dumps(episode.subtitle),
                     description=episode.description
@@ -53,13 +57,17 @@ def render_episodes(episodes: List[Episode]) -> None:
 def parse_item(item: ET.Element) -> Episode:
     title = item.find("title").text
     subtitle = item.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}subtitle").text
-    duration = item.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}duration").text
+    duration_string = item.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}duration").text
+    duration = datetime.strptime(duration_string, "%M:%S")
     description = item.find("description").text
     pub_date = item.find("pubDate").text
+    episode_audio_url = item.find("enclosure").attrib["url"]
+    
     #published = datetime.strptime(pub_date, "%a, %d %b %Y %H:%M:%S %z") # the format for wakingup-rss.xml
     published = datetime.strptime(pub_date, "%a, %d %b %Y %H:%M %Z") # the format for happiness-not-guaranteed.xml
     return Episode(
         title=title,
+        episode_audio_url=episode_audio_url,
         subtitle=subtitle,
         duration=duration,
         description=description,
@@ -74,7 +82,7 @@ def parse_xml(filename: str) -> List[Episode]:
 
     # Iterate over items and parse them
     channel = root.find("channel")
-    for item in channel.findall("item"):
+    for item in reversed(channel.findall("item")):
         try:
             episode = parse_item(item)
             output.append(episode)

@@ -83,3 +83,6 @@ url = "/index.xml"
     endLevel = 3
     ordered = true
     startLevel = 2 
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,9 +1,11 @@
 ---
-title: "The Integration Equation"
-date: 2023-02-17T13:20::00
-description: "Vasily and Nikita share personal experiences and insights on the challenges of cultural integration and navigating identity as immigrants in a heartfelt and thought-provoking episode."
-duration: ['itunes:subtitle']
+title: "Inspiration vs. Discipline"
+number: 3
+duration: 21 min
+date: 2023-03-01
+description: "Vasily and Nikita discuss the connection between inspiration, discipline, and happiness, sharing personal struggles and insights on maintaining motivation in a mindful and engaging episode."
+episode_audio_url: https://github.com/nchepanov/happymaybe.com/raw/main/episodes/hm-003.mp3
 tags: []
 ---
 
-<p>In this episode of Happy Maybe, Vasily and Nikita explore the challenges of having an identity as an immigrant. They delve into the complex process of cultural integration and discuss how it can be a never-ending struggle that lasts for years. Drawing from their own experiences, Vasily and Nikita share insights on how to navigate the ups and downs of adapting to a new culture and finding a sense of belonging.</p><p>Tune in to this freeform conversation between two friends for a heartfelt and thought-provoking discussion on what it means to have an identity shaped by immigration.</p><p><strong>Links:</strong></p><ul><li><p>Gogol Bordello (band) <a target="_blank" rel="noopener noreferrer nofollow" href="https://en.wikipedia.org/wiki/Gogol_Bordello">https://en.wikipedia.org/wiki/Gogol_Bordello</a>&nbsp;</p></li></ul>
+<p>In this episode of Happy Maybe, Vasily and Nikita engage in a freeform conversation about the connection between inspiration, discipline, and our pursuit of happiness. Nikita shares how his recent trip to Costa Rica inspired him, but his motivation has since waned. Vasily discusses his personal struggle with maintaining a consistent meditation practice and suggests reading books as a more mindful alternative to mindlessly scrolling through social media.</p><p>Tune in to this episode and join the freeform conversation between two friends as they share their insights on what drives us towards happiness.</p><p><strong>Links:</strong></p><ul><li><p>Old Chinese tale “The Story of the Old Man and His Horse" (that the hosts called “The Maybe Tale”, LOL) <a target="_blank" rel="noopener noreferrer nofollow" href="https://en.wikipedia.org/wiki/The_old_man_lost_his_horse">https://en.wikipedia.org/wiki/The_old_man_lost_his_horse</a>&nbsp;</p></li><li><p>Internal Family Systems <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.psychologytoday.com/us/therapy-types/internal-family-systems-therapy">https://www.psychologytoday.com/us/therapy-types/internal-family-systems-therapy</a></p></li></ul><p></p>

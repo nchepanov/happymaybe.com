@@ -14,15 +14,15 @@
 						<div class="post-header">
 							<div class="meta">
 								<div class="date">
-									<span class="day">1</span>
-									<span class="rest">{{ dateFormat "2" .Date }} {{ if $.Site.Data.month }}{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ else }}{{ dateFormat "Jan 2006" .Date }}{{ end }}</span>
+									<span class="day">{{ .Params.number}}</span>
+									<span class="rest">{{ dateFormat "Jan 2, 2006" .Date }}</span>
 								</div>
 							</div>
 							<div class="matter">
 								<h3 class="title small">
 									<a href="{{ .RelPermalink }}">{{.Title}}{{ if .Draft }}<sup class="draft-label">DRAFT</sup>{{ end }}</a>
 								</h3>
-								<h4 class="title small">21 min</h4>
+								<h4 class="title small">{{ .Params.duration }}</h4>
 								<span class="description">
 									{{ if isset .Params "description" }}
 										{{ .Description }}
