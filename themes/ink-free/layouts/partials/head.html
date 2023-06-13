@@ -13,6 +13,21 @@
 		{{- if isset .Site.Params "subtitle" -}}
 		<p class="mt-0 mb-3 font-bold text-gray-500">{{ .Site.Params.Subtitle | markdownify }}</p>
 		{{- end -}}
+	</div>
+
+
+	<div class="flex justify-between border-t border-b border-gray-300">
+	  
+		<nav class="nav">
+			<ul class="flat">
+				{{ range .Site.Menus.main }}
+				<li>
+					<a href="{{ .URL }}">{{ .Name }}</a>
+				</li>
+				{{ end }}
+			</ul>
+		</nav>
+
 		<nav class="nav social">
 			<ul class="flat">
 				{{- range $index, $key := .Site.Params.Social -}}
@@ -20,19 +35,11 @@
 				{{- end -}}
 
 				{{- if or (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
-                			<span class="scheme-toggle"><a href="#" id="scheme-toggle"></a>
+							<span class="scheme-toggle"><a href="#" id="scheme-toggle"></a>
 				{{- end -}}
 			</ul>
 		</nav>
+
 	</div>
 
-	<nav class="nav">
-		<ul class="flat">
-			{{ range .Site.Menus.main }}
-			<li>
-				<a href="{{ .URL }}">{{ .Name }}</a>
-			</li>
-			{{ end }}
-		</ul>
-	</nav>
 </div>
