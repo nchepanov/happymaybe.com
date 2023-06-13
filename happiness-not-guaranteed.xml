@@ -6,7 +6,7 @@
           <description><![CDATA[Happy Maybe is a conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life. From cultural adaptation to navigating life&apos;s obstacles, they explore existential issues and the complex nature of happiness.]]></description>
           <itunes:image href="https://happymaybe.com/images/happy-maybe-artwork-2.jpg"/>
           <language>en</language>
-          <copyright>Happy Maybe LOL</copyright>
+          <copyright>Happy Maybe</copyright>
           <link>https://www.happymaybe.com/</link>
           <image>
               <url>https://happymaybe.com/images/happy-maybe-artwork-2.jpg</url>
@@ -18,7 +18,7 @@
           
           <itunes:owner>
               <itunes:name>Vasily Myazin and Nikita Chepanov</itunes:name>
-              <itunes:email>vmyazin@icloud.com</itunes:email>
+              <itunes:email>contact@happymaybe.com</itunes:email>
           </itunes:owner>
           <itunes:author>Vasily Myazin and Nikita Chepanov</itunes:author>
           
@@ -34,45 +34,6 @@
           
   
           <item>
-              <title>When Success Isn&apos;t Enough</title>
-              <itunes:subtitle>In Episode 4, Vasily and Nikita challenge societal expectations by exploring the complexities of finding happiness amidst the pressure to constantly strive for self-improvement and professional success.</itunes:subtitle>
-              
-              <description><![CDATA[<p>In this episode of Happy Maybe, Vasily and Nikita engage in a freeform conversation about the complexities of finding happiness and satisfaction in a seemingly "perfect" life. They explore the pressures of constantly striving for self-improvement and question whether the pursuit of professional success always leads to happiness. They also delve into the dilemma of whether to push for a salary raise or accept the status quo. Join them for a thought-provoking conversation that challenges our assumptions about what truly matters in life.</p><p><strong>Links:</strong></p><ul>  <li>    <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://news.harvard.edu/gazette/story/2020/09/joseph-henrich-explores-weird-societies/">On WEIRD societies</a></p>  </li>  <li>    <p>Nikita’s blog post <a target="_blank" rel="noopener noreferrer nofollow" href="https://chepanov.com/irreconcilable-differences/">on toxic positivity</a></p>    <p></p>  </li></ul>]]></description>
-              <enclosure type="audio/mpeg" url="https://github.com/nchepanov/happymaybe.com/raw/main/episodes/hm-004.mp3" length="24750763"/>
-              <guid>915e9815-c026-422e-8697-f68a075654df</guid>
-              
-              <itunes:duration>14:0</itunes:duration>
-              <itunes:explicit>false</itunes:explicit>
-              
-              <pubDate>Thu, 4 May 2023 03:00 UTC</pubDate>
-          </item>
-        <item>
-              <title>Inspiration vs. Discipline</title>
-              <itunes:subtitle>Vasily and Nikita discuss the connection between inspiration, discipline, and happiness, sharing personal struggles and insights on maintaining motivation in a mindful and engaging episode.</itunes:subtitle>
-              
-              <description><![CDATA[<p>In this episode of Happy Maybe, Vasily and Nikita engage in a freeform conversation about the connection between inspiration, discipline, and our pursuit of happiness. Nikita shares how his recent trip to Costa Rica inspired him, but his motivation has since waned. Vasily discusses his personal struggle with maintaining a consistent meditation practice and suggests reading books as a more mindful alternative to mindlessly scrolling through social media.</p><p>Tune in to this episode and join the freeform conversation between two friends as they share their insights on what drives us towards happiness.</p><p><strong>Links:</strong></p><ul><li><p>Old Chinese tale “The Story of the Old Man and His Horse" (that the hosts called “The Maybe Tale”, LOL) <a target="_blank" rel="noopener noreferrer nofollow" href="https://en.wikipedia.org/wiki/The_old_man_lost_his_horse">https://en.wikipedia.org/wiki/The_old_man_lost_his_horse</a>&nbsp;</p></li><li><p>Internal Family Systems <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.psychologytoday.com/us/therapy-types/internal-family-systems-therapy">https://www.psychologytoday.com/us/therapy-types/internal-family-systems-therapy</a></p></li></ul><p></p>]]></description>
-              <enclosure type="audio/mpeg" url="https://github.com/nchepanov/happymaybe.com/raw/main/episodes/hm-003.mp3" length="36863809"/>
-              <guid>e5464aea-7bd3-4e6c-a66d-68f5ec046297</guid>
-              
-              <itunes:duration>21:45</itunes:duration>
-              <itunes:explicit>false</itunes:explicit>
-              
-              <pubDate>Wed, 1 Mar 2023 11:22 UTC</pubDate>
-          </item>
-        <item>
-              <title>The Integration Equation</title>
-              <itunes:subtitle>Vasily and Nikita share personal experiences and insights on the challenges of cultural integration and navigating identity as immigrants in a heartfelt and thought-provoking episode.</itunes:subtitle>
-              
-              <description><![CDATA[<p>In this episode of Happy Maybe, Vasily and Nikita explore the challenges of having an identity as an immigrant. They delve into the complex process of cultural integration and discuss how it can be a never-ending struggle that lasts for years. Drawing from their own experiences, Vasily and Nikita share insights on how to navigate the ups and downs of adapting to a new culture and finding a sense of belonging.</p><p>Tune in to this freeform conversation between two friends for a heartfelt and thought-provoking discussion on what it means to have an identity shaped by immigration.</p><p><strong>Links:</strong></p><ul><li><p>Gogol Bordello (band) <a target="_blank" rel="noopener noreferrer nofollow" href="https://en.wikipedia.org/wiki/Gogol_Bordello">https://en.wikipedia.org/wiki/Gogol_Bordello</a>&nbsp;</p></li></ul>]]></description>
-              <enclosure type="audio/mpeg" url="https://github.com/nchepanov/happymaybe.com/raw/main/episodes/hm-002.mp3" length="26113209"/>
-              <guid>78c1b49d-e2ad-46bf-95bd-f1d499b94469</guid>
-              
-              <itunes:duration>15:14</itunes:duration>
-              <itunes:explicit>false</itunes:explicit>
-              
-              <pubDate>Fri, 17 Feb 2023 10:20 UTC</pubDate>
-          </item>
-        <item>
               <title>Less-Than-Ideal Choices</title>
               <itunes:subtitle>Vasily and Nikita explore the complexities of making tough choices in a world of competing perspectives in the debut episode.</itunes:subtitle>
               
@@ -83,7 +44,7 @@
               <itunes:duration>25:28</itunes:duration>
               <itunes:explicit>false</itunes:explicit>
               
-              <pubDate>Wed, 1 Feb 2023 12:23 UTC</pubDate>
+              <pubDate>Mon, 12 Jun 2023 18:00 UTC</pubDate>
           </item>
             
       </channel>
