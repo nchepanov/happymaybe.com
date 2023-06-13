@@ -260,6 +260,9 @@ ul {
 .header .site-title {
     margin: 0 0;
     padding: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header .site-title img {
