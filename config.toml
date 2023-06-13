@@ -10,7 +10,7 @@ copyright = "© Copyright"
   posts = "/:year/:month/:title"
 
 [params]
-	subtitle = "A conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life."
+	subtitle = "A conversational podcast where two friends share their unique insights on the winding journey of life."
 	description = "A conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life."
 
 	# podcast artwork image

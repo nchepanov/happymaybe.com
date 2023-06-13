@@ -52,6 +52,10 @@ a img {
     border: none;
 }
 
+.container p {
+    margin-bottom: 20px;
+}
+
 figure {
     margin: 0;
     text-align: center;
@@ -221,6 +225,12 @@ ul {
     padding: 40px;
 }
 
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 0;
+    }
+}
+
 .main {
     background: #fff;
 }
@@ -269,6 +279,7 @@ ul {
 .header .site-description {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .header nav {
@@ -349,8 +360,9 @@ ul {
     font-size: 3em;
     display: block;
     margin-bottom: 6px;
-    margin-top: 12px;
+    margin-top: 0;
     color: #1f1d19;
+    line-height: 1;
 }
 
 .post-header .meta .date .rest {
@@ -359,11 +371,13 @@ ul {
 }
 
 .post-header h1.title {
+    font-size: 3.25rem;
     margin: -10px 0 0 0;
 }
 
 .post-header h3 {
     text-transform: uppercase;
+    font-size: 2rem;
 }
 
 .post .title.small {

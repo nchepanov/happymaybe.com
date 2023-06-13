@@ -9,9 +9,9 @@
 	<h1 class="site-title"><a href="{{ .Site.BaseURL }}">
 		<img src="/images/hm-site-logo.png" alt="{{ .Site.Title }}" title="{{ .Site.Title }}">
 	</a></h1>
-	<div class="site-description">
+	<div class="site-description mt-5 mb-2 mx-1">
 		{{- if isset .Site.Params "subtitle" -}}
-		<p>{{ .Site.Params.Subtitle | markdownify }}</p>
+		<p class="mt-0 mb-3 font-bold text-gray-500">{{ .Site.Params.Subtitle | markdownify }}</p>
 		{{- end -}}
 		<nav class="nav social">
 			<ul class="flat">
