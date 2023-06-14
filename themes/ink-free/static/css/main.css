@@ -52,6 +52,15 @@ a img {
     border: none;
 }
 
+.img-link {
+    transition: opacity 0.2s ease-in-out;
+}
+.img-link:hover {
+    border-bottom: none;
+    opacity: 0.8;
+    transition: opacity 0.2s ease-in-out;
+}
+
 .container p {
     margin-bottom: 20px;
 }
