@@ -21,14 +21,14 @@
 			</div>
 					
 			<div class="markdown">
-				{{ .Content }}
-			
-				<div class="audio-player mt-6">
+				<div class="audio-player mb-5">
 					<audio controls>
 						<source src="{{ .Params.episode_audio_url }}" type="audio/mpeg">
 						Your browser does not support the audio element.
 					</audio>
 				</div>
+
+				{{ .Content }}			
 			</div>
 
 			<div class="tags">
