@@ -22,6 +22,13 @@
 					
 			<div class="markdown">
 				{{ .Content }}
+			
+				<div class="audio-player mt-6">
+					<audio controls>
+						<source src="{{ .Params.episode_audio_url }}" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
+				</div>
 			</div>
 
 			<div class="tags">
