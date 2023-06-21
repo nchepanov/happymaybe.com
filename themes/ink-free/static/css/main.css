@@ -43,9 +43,9 @@ hr {
 }
 
 img {
-    margin: 10px auto 10px auto;
+    margin: 0;
     max-width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 a img {
@@ -295,7 +295,7 @@ ul {
 }
 
 .header nav {
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .header nav ul,
@@ -342,6 +342,19 @@ ul {
     max-height: 15px;
     fill: grey;
     color: black;
+}
+
+.logo-link {
+    color: #6C727F;
+    font-size: 12px;
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 1.1;
+}
+
+.logo-link:hover {
+    border-bottom-width: 0;
+    text-decoration: none;
+    color: #dd1e20;
 }
 
 .section .section-header {

@@ -49,14 +49,17 @@ copyright = "© Copyright"
 [[params.directory]]
 name = "Spotify"
 url = "https://open.spotify.com/show/0b1iuEBqTr8DhjP436Z9Yx"
+logo = "/images/logos/icon-Spotify.svg"
 
 [[params.directory]]
 name = "Yandex"
 url = "https://music.yandex.ru/album/26289988"
+logo = "/images/logos/icon-YandexMusic.svg"
 
 [[params.directory]]
 name = "Apple"
 url = "https://podcasts.apple.com/us/podcast/happy-maybe/id1692227489"
+logo = "/images/logos/icon-ApplePodcast.svg"
 
 # Nav.
 [[menu.main]]

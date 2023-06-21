@@ -19,9 +19,9 @@
 	<div class="flex justify-between border-t border-b border-gray-300">
 	  
 		<nav class="nav">
-			<ul class="flat">
+			<ul class="flex items-center h-full">
 				{{ range .Site.Menus.main }}
-				<li>
+				<li class="">
 					<a href="{{ .URL }}">{{ .Name }}</a>
 				</li>
 				{{ end }}
@@ -31,9 +31,12 @@
 		<nav class="nav">
 			<ul class="flat">
 				{{- range $index, $key := .Site.Params.Directory -}}
-				<li class="flex-none mr-4">
-				  <a href="{{ $key.url }}" title="{{ $key.name }}">{{ $key.name }}</a>
-				</li>
+				<li class="flex-none mr-4 text-center">
+					<a href="{{ $key.url }}" title="{{ $key.name }}" class="logo-link">
+						<img src="{{ $key.logo }}" alt="" class="mx-auto">
+						<span class="block">{{ $key.name }}</span>
+					</a>
+				</li>				  
 				{{- end -}}
 			</ul>
 		</nav>
