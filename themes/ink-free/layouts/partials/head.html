@@ -28,18 +28,14 @@
 			</ul>
 		</nav>
 
-		<nav class="nav social">
+		<nav class="nav">
 			<ul class="flat">
-				{{- range $index, $key := .Site.Params.Social -}}
-					<li><a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a></li>
-				{{- end -}}
-
-				{{- if or (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
-							<span class="scheme-toggle"><a href="#" id="scheme-toggle"></a>
+				{{- range $index, $key := .Site.Params.Directory -}}
+				<li class="flex-none mr-4">
+				  <a href="{{ $key.url }}" title="{{ $key.name }}">{{ $key.name }}</a>
+				</li>
 				{{- end -}}
 			</ul>
 		</nav>
-
 	</div>
-
 </div>

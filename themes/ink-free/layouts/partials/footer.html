@@ -1,8 +1,15 @@
 <div class="footer wrapper">
 	<nav class="nav">
-		<div>{{ default 2023 .Date.Year}} {{ with .Site.Copyright }} {{ . | safeHTML }} {{ end }}</div>
-		<!-- <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div> -->
-	</nav>
+		<ul class="flex justify-end list-none">
+		  {{- range $index, $key := .Site.Params.Social -}}
+		  <li class="flex-none mr-4">
+			<a href="{{ $key.url }}" title="{{ $key.name }}">RSS Feed</a>
+		  </li>
+		  {{- end -}}
+		  <li class="flex-none mr-4">{{ default 2023 .Date.Year}} {{ with .Site.Copyright }} {{ . | safeHTML }} {{ end }}</li>
+		  <!-- <li><a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></li> -->
+		</ul>
+	  </nav>	  
 </div>
 
 {{- with .Site.Params.Social -}}

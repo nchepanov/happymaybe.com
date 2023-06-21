@@ -231,7 +231,7 @@ ul {
 .wrapper {
     max-width: 860px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 40px 0;
 }
 
 @media (max-width: 480px) {
