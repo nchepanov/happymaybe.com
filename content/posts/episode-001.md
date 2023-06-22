@@ -4,7 +4,7 @@ number: 1
 duration: 25 min
 date: 2023-06-12
 description: "Vasily and Nikita explore the complexities of making tough choices in a world of competing perspectives in the debut episode."
-episode_audio_url: https://github.com/nchepanov/happymaybe.com/raw/main/episodes/hm-001.mp3
+episode_audio_url: https://happymaybe.s3.amazonaws.com/audio/hm-001.mp3
 tags: []
 ---
 
