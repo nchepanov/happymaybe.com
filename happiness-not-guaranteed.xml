@@ -3,7 +3,7 @@
       <channel>
           <title>Happy Maybe</title>
           
-          <description><![CDATA[Happy Maybe is a conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life. From cultural adaptation to navigating life&apos;s obstacles, they explore existential issues and the complex nature of happiness.]]></description>
+          <description><![CDATA[Happy Maybe is a conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life. From cultural adaptation to navigating life&amp;apos;s obstacles, they explore existential issues and the complex nature of happiness.]]></description>
           <itunes:image href="https://happymaybe.com/images/happy-maybe-artwork-2.jpg"/>
           <language>en</language>
           <copyright>Happy Maybe</copyright>
@@ -13,7 +13,7 @@
               <title>Happy Maybe</title>
               <link>https://www.happymaybe.com/</link>
           </image>
-          <itunes:summary><![CDATA[Happy Maybe is a conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life. From cultural adaptation to navigating life&apos;s obstacles, they explore existential issues and the complex nature of happiness.]]></itunes:summary>
+          <itunes:summary><![CDATA[Happy Maybe is a conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life. From cultural adaptation to navigating life&amp;apos;s obstacles, they explore existential issues and the complex nature of happiness.]]></itunes:summary>
           <itunes:subtitle>Two friends discuss existential issues of life, free will, and overcoming obstacles, sometimes getting lost in questions and solutions.</itunes:subtitle>
           
           <itunes:owner>
@@ -29,11 +29,24 @@
               <itunes:category text="Personal Journals" />
             <itunes:category text="Philosophy" />
           </itunes:category>
-          <itunes:keywords>meaning, existentialism </itunes:keywords>
+          <itunes:keywords>meaning, existentialism</itunes:keywords>
           <itunes:explicit>false</itunes:explicit>
           
   
           <item>
+              <title>Cultural Crossroads and Quest For Belonging</title>
+              <itunes:subtitle>Exploring the challenges and triumphs of adapting to life in a new culture; the journey of immigration, and the pursuit of a sense of belonging.</itunes:subtitle>
+              
+              <description><![CDATA[<p>In this episode of Happy Maybe, Vasily and Nikita explore the challenges of having an identity as an immigrant. They delve into the complex process of cultural integration and discuss how it can be a never-ending struggle that lasts for years. Drawing from their own experiences, Vasily and Nikita share insights on how to navigate the ups and downs of adapting to a new culture and finding a sense of belonging.</p><p>Tune in to this freeform conversation between two friends for a heartfelt and thought-provoking discussion on what it means to have an identity shaped by immigration.</p><p><strong>Links:</strong></p><ul><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://en.wikipedia.org/wiki/Gogol_Bordello">Gogol Bordello (band)</a> &nbsp;</p></li><li><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/gogolbordello">Gogol Bordello YouTube channel</a>&nbsp;</p></li></ul>]]></description>
+              <enclosure type="audio/mpeg" url="https://happymaybe.s3.amazonaws.com/audio/hm-002.mp3" length="19009275"/>
+              <guid>fb3421e9-426a-405c-a66e-e54467b46700</guid>
+              
+              <itunes:duration>15:19</itunes:duration>
+              <itunes:explicit>false</itunes:explicit>
+              
+              <pubDate>Tue, 27 Jun 2023 10:00 UTC</pubDate>
+          </item>
+        <item>
               <title>Less-Than-Ideal Choices</title>
               <itunes:subtitle>Vasily and Nikita explore the complexities of making tough choices in a world of competing perspectives in the debut episode.</itunes:subtitle>
               
