@@ -37,4 +37,4 @@ Netlify is [setup](https://app.netlify.com/sites/happymaybe/deploys) to automati
 * Run `curl https://www.indeecast.com/api/v2/podcast/published/1403141 > happiness-not-guaranteed.xml`
 * Then run `./script/generate.py happiness-not-guaranteed.xml`
 * Test with `hugo serve`
-* If everything looks correct `git commit -am "New episode" && git push origin main`
+* If everything looks correct locally, run `git commit -am "Add episode" && git push origin main`
