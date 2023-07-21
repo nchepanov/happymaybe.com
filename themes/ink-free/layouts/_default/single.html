@@ -2,20 +2,20 @@
 <html>
 {{ partial "header.html" . }}
 <body>
-	<div class="container wrapper main">
+	<div class="container wrapper pt-6 main">
 		{{ partial "head.html" . }}
 
 		<div class="post">
-			<div class="post-header">
+			<div class="post-header mb-4">
 				{{ if ne .Date.Year 1 }}
 					<div class="meta">
 						<div class="date">
-							<span class="day">{{ .Params.number}}</span>
+							<span class="day text-gray-500">{{ .Params.number}}</span>
 							<span class="rest">{{ dateFormat "Jan 2, 2006" .Date }}</span>
 						</div>
 					</div>
 				{{ end }}
-				<div class="matter">
+				<div class="matter flex items-center">
 					<h1 class="title">{{ .Title }}</h1>
 				</div>
 			</div>

@@ -62,7 +62,6 @@ a img {
 }
 
 .container p {
-    margin-bottom: 20px;
 }
 
 figure {
@@ -231,7 +230,6 @@ ul {
 .wrapper {
     max-width: 860px;
     margin: 0 auto;
-    padding: 40px 0;
 }
 
 @media (max-width: 480px) {
@@ -246,12 +244,10 @@ ul {
 
 .container {
     max-width: 800px;
-    margin-top: 50px;
 }
 
 .header {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .header .avatar {
@@ -290,7 +286,7 @@ ul {
 
 .header .site-description {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -378,7 +374,7 @@ ul {
 }
 
 .post-header .meta .date {
-    margin-right: 30px;
+    margin-right: 20px;
     width: 78px;
     text-align: center;
 }
@@ -387,9 +383,7 @@ ul {
     font-weight: 700;
     font-size: 3em;
     display: block;
-    margin-bottom: 6px;
     margin-top: 0;
-    color: #1f1d19;
     line-height: 1;
 }
 
@@ -399,8 +393,9 @@ ul {
 }
 
 .post-header h1.title {
-    font-size: 3.25rem;
+    font-size: 2.25rem;
     margin: -10px 0 0 0;
+    line-height: 1.2;
 }
 
 .post-header h3 {
@@ -412,8 +407,37 @@ ul {
     margin: 0 0 10px 0;
 }
 
-.post .post-header {
-    margin-bottom: 30px;
+@media screen and (max-width: 480px) {
+    .recent-posts .posts .post {
+        margin-bottom: 0;
+    }
+
+    .post .title.small {
+        margin: 0 0 8px 0;
+    }
+
+    .post-header .meta .date {
+        margin-right: 20px;
+        width: 60px;
+    }
+
+    .post-header .meta .date .day {
+        font-size: 2em;
+    }
+
+    .post-header h1.title {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .post-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        font-size: 0.9em;
+        line-height: 1.4;
+    }
 }
 
 .post .draft-label {
@@ -448,6 +472,7 @@ ul {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .meta,
@@ -471,6 +496,10 @@ ul {
     .description {
         display: block;
     }
+}
+
+.description {
+    color: #777;
 }
 
 .list .posts .post-header .meta {
@@ -533,7 +562,7 @@ ul {
 
 @media (max-width: 900px) {
     body {
-        padding: 20px;
+        padding: 10px 20px;
     }
 
     h1 {
@@ -550,10 +579,6 @@ ul {
 
     h4 {
         font-size: 1rem;
-    }
-
-    .container {
-        margin-top: 10px;
     }
 
     .header .nav.social li {
@@ -616,3 +641,6 @@ code:not(pre *)  {
     max-width: 450px;
 }
 
+.markdown p {
+    margin: 0 0 1em 0;
+}

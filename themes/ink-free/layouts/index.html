@@ -2,7 +2,7 @@
 <html {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
 {{ partial "header.html" . }}
 <body>
-	<div class="container wrapper main">
+	<div class="container wrapper pt-6 main">
 		{{ partial "head.html" . }}
 
 		<div class="recent-posts section">
@@ -11,10 +11,10 @@
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
 				{{ range $paginator.Pages }}
 					<div class="post">
-						<div class="post-header">
+						<div class="post-header mb-5">
 							<div class="meta">
 								<div class="date">
-									<span class="day">{{ .Params.number}}</span>
+									<span class="day text-gray-500">{{ .Params.number}}</span>
 									<span class="rest">{{ dateFormat "Jan 2, 2006" .Date }}</span>
 								</div>
 							</div>
