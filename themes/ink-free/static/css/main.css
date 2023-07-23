@@ -5,6 +5,7 @@ body {
     line-height: 1.6em;
     font-size: 17px;
     background-color: white;
+    min-width: 320px;
 }
 
 a {
@@ -31,6 +32,18 @@ html, button, input, select, textarea {
     background: #dd1e20;
     text-shadow: none;
     color: #fff;
+}
+
+@media (max-width: 479px) {
+    .xs-hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 479px) {
+    .xs-block {
+        display: block;
+    }
 }
 
 hr {
@@ -390,6 +403,7 @@ ul {
 .post-header .meta .date .rest {
     display: block;
     font-size: 0.75em;
+    line-height: 1.5;
 }
 
 .post-header h1.title {
@@ -483,7 +497,6 @@ ul {
     .post-header .meta .date {
         display: flex;
         width: 100%;
-        margin-bottom: 10px;
         align-items: center;
     }
 
