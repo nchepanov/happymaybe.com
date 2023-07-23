@@ -366,6 +366,10 @@ ul {
     color: #dd1e20;
 }
 
+.post p {
+    margin: 0 0 1em 0;
+}
+
 .section .section-header {
     font-size: 0.75rem;
     font-weight: 600;
