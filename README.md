@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0fb35d62-0ede-4117-b704-39c747ae2088/deploy-status)](https://app.netlify.com/sites/happymaybe/deploys)
 
-# Happy Maybe podcast   
+# Happy Maybe Podcast   
 
 ## Stack
 
@@ -33,8 +33,8 @@ Netlify is [setup](https://app.netlify.com/sites/happymaybe/deploys) to automati
 ## Adding an episode
 
 * Confirm new mp3 was added to our AWS S3 bucket
-* Ensure indeecast.com [feed](https://www.indeecast.com/api/v2/podcast/published/1403141) was updated with the new episode
-* Run `curl https://www.indeecast.com/api/v2/podcast/published/1403141 > happiness-not-guaranteed.xml`
+* Ensure indeecast.com [feed](https://www.indeecast.com/p/happy-maybe/feed) was updated with the new episode
+* Run `curl https://www.indeecast.com/p/happy-maybe/feed > happiness-not-guaranteed.xml`
 * Then run `./script/generate.py happiness-not-guaranteed.xml`
 * Test with `hugo serve`
-* If everything looks correct locally, run `git commit -am "Add episode" && git push origin main`
+* If everything looks correct locally, run `git commit -am "Add episode #" && git push origin main`
