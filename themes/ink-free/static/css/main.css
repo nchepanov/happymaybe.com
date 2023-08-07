@@ -660,3 +660,20 @@ code:not(pre *)  {
 .markdown p {
     margin: 0 0 1em 0;
 }
+
+ol {
+    list-style: none;
+    padding-left: 20px;
+    counter-reset: item;
+
+}
+
+ol li::before {
+    content: counter(item) ".";
+    counter-increment: item;
+    margin-right: 0.5rem;
+}
+
+ol li p {
+    display: inline;
+}
