@@ -5,9 +5,9 @@ type: "page"
 layout: "about"
 ---
 
-Is happiness something we are entitled to? What price are we willing to pay to stay happy?
+Is happiness something we are entitled to?
 
-Having a shared experience as expats in the Land of the Free, two close friends, Vasily and Nikita, often have conversations that leave them feeling inspired and connected. Their friendship gives them a sense of support as they talk about what matters in life, share personal struggles, and trade honest feedback. So much so they decided to start recording their conversations in hopes that others would find solace in knowing they are not alone in their struggles.
+Having a shared experience as expats, two close friends, Vasily and Nikita, often have conversations that leave them feeling inspired and connected. Their friendship gives them a sense of support as they talk about what matters in life, share personal struggles, and trade honest feedback. So much so they decided to start recording their conversations in hopes that others would find solace in knowing they are not alone in their struggles.
 
 ### Why “Happy Maybe”?
 
