@@ -9,7 +9,7 @@
   * $9/mo paid by Nikita since it's also used for chepanov.com
 * Podcast mp3 hosting via AWS S3 https://happymaybe.s3.amazonaws.com
   * credentials owned by Vasily
-  * cost is currently unknown (TODO)
+  * cost is $1/mo
 * Website hosting via Netlify https://app.netlify.com/sites/happymaybe
   * credentials owned by Nikita
   * free
@@ -17,7 +17,18 @@
   * credentials owned by Vasily
   * free
 
-## Making changes to the site
+## Runbooks
+
+### Adding an episode
+
+* Confirm the new mp3 is available in AWS S3 bucket
+* Ensure indeecast.com [feed](https://www.indeecast.com/p/happy-maybe/feed) was updated with the new episode
+* Run `curl https://www.indeecast.com/p/happy-maybe/feed > happiness-not-guaranteed.xml`
+* Then run `./script/generate.py happiness-not-guaranteed.xml`
+* Test with `hugo serve`
+* If everything looks correct locally, run `git add . && git commit -am "Add new episode" && git push origin main`
+
+### Making changes to the site
 
 - Clone the repo
 - Install `brew install hugo`
@@ -29,12 +40,3 @@ Netlify is [setup](https://app.netlify.com/sites/happymaybe/deploys) to automati
 
 - Install the Netlify CLI globally `npm install netlify-cli -g`
 - Then use the `netlify deploy` for a deploy preview link or `netlify deploy --prod` to deploy to production
-
-## Adding an episode
-
-* Confirm new mp3 was added to our AWS S3 bucket
-* Ensure indeecast.com [feed](https://www.indeecast.com/p/happy-maybe/feed) was updated with the new episode
-* Run `curl https://www.indeecast.com/p/happy-maybe/feed > happiness-not-guaranteed.xml`
-* Then run `./script/generate.py happiness-not-guaranteed.xml`
-* Test with `hugo serve`
-* If everything looks correct locally, run `git add . && git commit -am "Add episode #" && git push origin main`
