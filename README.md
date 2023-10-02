@@ -21,8 +21,8 @@
 
 ### Adding an episode
 
-* Confirm the new mp3 is available in AWS S3 bucket
-* Ensure indeecast.com [feed](https://www.indeecast.com/p/happy-maybe/feed) was updated with the new episode
+* Confirm the new mp3 is available in the [AWS S3 bucket](https://s3.console.aws.amazon.com/s3/upload/happymaybe?region=us-east-1&prefix=audio/)
+* Ensure [indeecast.com feed](https://www.indeecast.com/p/happy-maybe/feed) was [updated](https://www.indeecast.com/editor) with the new episode
 * Run `curl https://www.indeecast.com/p/happy-maybe/feed > happiness-not-guaranteed.xml`
 * Then run `./script/generate.py happiness-not-guaranteed.xml`
 * Test with `hugo serve`
