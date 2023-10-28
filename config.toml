@@ -7,7 +7,7 @@ ignoreErrors = ["error-remote-getjson"]
 copyright = "© Copyright"
 
 [permalinks]
-  posts = "/:year/:month/:title"
+    posts = "/:year/:month/:title"
 
 [params]
 	subtitle = "A conversational podcast where two friends share their insights on the winding journey of life."
@@ -38,6 +38,8 @@ copyright = "© Copyright"
 
 	# Github base url
 	github = "https://github.com/nchepanov/happymaybe.com"
+
+	favicon = "/images/favicon.png"
 
 # Podcast Services Links
 [[params.directory]]
