@@ -6,8 +6,8 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 
 <!-- Language Tags -->
-<meta property="og:locale" content="{{ .Language.Lang }}" />
-<meta name="language" content="{{ .Language.LanguageName }}" />
+<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+<meta name="language" content="{{ .Site.LanguageCode }}" />
 {{ range .AllTranslations }}
 <link
   rel="alternate"
@@ -17,7 +17,10 @@
 />
 {{ end }}
 
+<meta property="og:title" content="{{ .Site.Title }} | {{ .Title }}">
+<meta property="twitter:title" content="{{ .Site.Title }} | {{ .Title }}">
 <meta property="og:type" content="website" />
+<meta property="og:site_name" content="Happy Maybe">
 
 <!-- Image Tags -->
 <meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
