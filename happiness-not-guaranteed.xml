@@ -4,12 +4,12 @@
           <title>Happy Maybe</title>
           
           <description><![CDATA[Happy Maybe is a conversational podcast where Vasily and Nikita share their unique insights on the winding journey of life. From cultural adaptation to navigating life&amp;apos;s obstacles, they explore existential issues and the complex nature of happiness.]]></description>
-          <itunes:image href="https://happymaybe.com/images/happy-maybe-artwork-2.jpg"/>
+          <itunes:image href="https://happymaybe.com/images/happy-maybe-artwork-4-39393.jpg"/>
           <language>en</language>
           <copyright>Happy Maybe</copyright>
           <link>https://www.happymaybe.com/</link>
           <image>
-              <url>https://happymaybe.com/images/happy-maybe-artwork-2.jpg</url>
+              <url>https://happymaybe.com/images/happy-maybe-artwork-4-39393.jpg</url>
               <title>Happy Maybe</title>
               <link>https://www.happymaybe.com/</link>
           </image>
@@ -34,6 +34,19 @@
           
   
           <item>
+              <title>The Life Coaching Minefield</title>
+              <itunes:subtitle>Nikita dislikes the coaching industry, but Vasily sees pros if the coaching raises energy and provides accountability. They discuss how to vet so-called gurus, and debate paid versus freely shared wisdom.</itunes:subtitle>
+              
+              <description><![CDATA[<p>Nikita thinks most folks selling themselves as life coaches just want your cash. But Vasily says some coaches can help you get motivated to improve your life. Nikita warns about social media influencer types who act like gurus but don’t really know you. Vasily thinks hiring a coach can work if they get you taking action and hold you accountable.</p><p>They tell stories of coaches who were helpful and others who just talked big without delivering. In the end, Nikita and Vasily agree you need to be smart about who you take advice from. Not everyone who seems ultra confident has the answers. The trick is finding a mentor who calls you to be your best self, not just tells you what you want to hear.</p><p><strong>Links:</strong></p><ul><li><p>Tim Ward’s YouTube Channel<strong> </strong><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/@TimothyWard">https://www.youtube.com/@TimothyWard</a></p></li><li><p>Pieter Levels on X (Twitter) <a target="_blank" rel="noopener noreferrer nofollow" href="https://twitter.com/levelsio">https://twitter.com/levelsio</a></p></li><li><p>Darren Silver <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.darrensilver.earth/">https://www.darrensilver.earth/</a></p></li></ul>]]></description>
+              <enclosure type="audio/mpeg" url="https://happymaybe.s3.amazonaws.com/audio/hm-011.mp3" length="37022210"/>
+              <guid>fc04a0e0-5ad1-4d8f-bf06-f36da59d64c0</guid>
+              
+              <itunes:duration>23:55</itunes:duration>
+              <itunes:explicit>false</itunes:explicit>
+              
+              <pubDate>Mon, 30 Oct 2023 14:03 UTC</pubDate>
+          </item>
+        <item>
               <title>Anger Mismanagement</title>
               <itunes:subtitle>Vasily and Nikita get real about anger, sharing times they’ve lost their cool and debating if blowing off steam can actually lead to more chill. If you allow yourself to feel rage now and then, will it bring you Zen or just make you angrier?</itunes:subtitle>
               
