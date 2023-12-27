@@ -9,6 +9,10 @@ Is happiness something we are entitled to?
 
 Having a shared experience as expats, two close friends, Vasily and Nikita, often have conversations that leave them feeling inspired and connected. Their friendship gives them a sense of support as they talk about what matters in life, share personal struggles, and trade honest feedback. So much so they decided to start recording their conversations in hopes that others would find solace in knowing they are not alone in their struggles.
 
+### Contact Us
+
+Email [contact@happymaybe.com](mailto:contact@happymaybe.com).
+
 ### Why “Happy Maybe”?
 
 The hosts believe that there’s more to life than trying to be happy. The ongoing discussion is framed from this perspective. The title of the podcast ironically underscores the impermanent nature of happiness. It has evolved from the original title of “Happiness Is Not Guaranteed.” 
