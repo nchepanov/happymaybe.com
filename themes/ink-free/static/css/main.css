@@ -366,6 +366,10 @@ ul {
     color: #ff6201;
 }
 
+.logo-link:hover img {
+    filter: hue-rotate(30deg) saturate(16);
+}
+
 .post p {
     margin: 0 0 1em 0;
 }

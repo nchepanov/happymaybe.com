@@ -57,6 +57,11 @@ name = "Yandex"
 url = "https://music.yandex.ru/album/26289988"
 logo = "/images/logos/icon-YandexMusic.svg"
 
+[[params.directory]]
+name = "YouTube"
+url = "https://www.youtube.com/@HappyMaybePodcast"
+logo = "/images/logos/icon-YouTube.svg"
+
 # Nav.
 [[menu.main]]
 name = "Home"
