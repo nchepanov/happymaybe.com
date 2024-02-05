@@ -34,6 +34,19 @@
           
   
           <item>
+              <title>Season One Finale</title>
+              <itunes:subtitle>Join us as we sip coffee, laugh through late-night snacks, and discuss how the podcast deepened our friendship, surprised us, and brought happiness.</itunes:subtitle>
+              
+              <description><![CDATA[<p>The hosts celebrate their 18th episode and reflect on their journey. They discuss how the podcast unexpectedly strengthened their friendship, share feedback from listeners, and tease the idea of inviting guests for a fresh twist in the next season. The hosts are taking a break but promise to return with more happiness insights and a sprinkle of AI magic for episode titles.</p><p>If you're eager to join the conversation, reach out via email or a personal message. Stay tuned for more happy vibes!</p>]]></description>
+              <enclosure type="audio/mpeg" url="https://happymaybe.s3.amazonaws.com/audio/hm-018.mp3" length="13517135"/>
+              <guid>74d7d180-2a1f-460a-a864-b6e38c4ef65c</guid>
+              
+              <itunes:duration>14:4</itunes:duration>
+              <itunes:explicit>false</itunes:explicit>
+              
+              <pubDate>Mon, 5 Feb 2024 12:02 UTC</pubDate>
+          </item>
+        <item>
               <title>What is Love?</title>
               <itunes:subtitle>It&apos;s all about love: Nikita and Vasily&apos;s latest chat is a humorous and insightful exploration of the heart&apos;s biggest question.</itunes:subtitle>
               
