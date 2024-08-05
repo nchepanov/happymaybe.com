@@ -1,0 +1,6 @@
+/* assets/css/custom.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles go here */
