@@ -17,6 +17,10 @@ cd happymaybe.com
 hugo serve
 ```
 
+```
+hugo serve  --themesDir ../..
+```
+
 ## Features
 * Syntax highlighting
 * RSS feeds
@@ -35,7 +39,6 @@ cd into your hugo site's root directory and:
 ```sh
 cd themes
 git submodule add https://github.com/chollinger93/ink-free 
-hugo serve  --themesDir ../..
 ```
 
 For more information read the [official setup guide](https://gohugo.io/overview/installing/) of Hugo.
