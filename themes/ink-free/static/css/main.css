@@ -1,4 +1,4 @@
-body {
+    body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #333;
@@ -16,9 +16,14 @@ a {
 
 a:hover {
     border-bottom: 2px solid #ff6201;
+    color: #ff6201;
 }
 
-html, button, input, select, textarea {
+html,
+button,
+input,
+select,
+textarea {
     color: #333;
 }
 
@@ -68,14 +73,14 @@ a img {
 .img-link {
     transition: opacity 0.2s ease-in-out;
 }
+
 .img-link:hover {
     border-bottom: none;
     opacity: 0.8;
     transition: opacity 0.2s ease-in-out;
 }
 
-.container p {
-}
+.container p {}
 
 figure {
     margin: 0;
@@ -149,7 +154,12 @@ blockquote em {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #333;
     font-weight: 500;
     line-height: 1.3em;
@@ -165,7 +175,8 @@ h2 {
     font-size: 2.5rem;
 }
 
-h3 {
+h3,
+.post h3 {
     font-size: 2rem;
 }
 
@@ -386,6 +397,7 @@ ul {
 .recent-posts {
     padding-bottom: 20px;
 }
+
 .recent-posts .posts .post {
     margin-bottom: 45px;
 }
@@ -649,7 +661,7 @@ figcaption {
     color: gray;
 }
 
-code:not(pre *)  {
+code:not(pre *) {
     font-family: monospace;
     font-size: 1em;
     background-color: rgb(239, 241, 243);

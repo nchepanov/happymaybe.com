@@ -2,7 +2,7 @@
 <html {{- if (eq .Site.Params.mode "dark") -}}class="dark"{{ end }}>
 {{ partial "header.html" . }}
 <body>
-	<div class="container wrapper pt-6 main">
+	<div class="container wrapper pt-6 main w-full md:w-1/2 mx-auto">
 		{{ partial "head.html" . }}
 
 		<div class="recent-posts section">

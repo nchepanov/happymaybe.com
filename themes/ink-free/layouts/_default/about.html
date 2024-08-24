@@ -2,11 +2,11 @@
 <html>
 {{ partial "header.html" . }}
 <body>
-	<div class="container wrapper pt-6 main">
+	<div class="container wrapper pt-6 main w-full md:w-1/2 mx-auto">
 		{{ partial "head.html" . }}
 
 		<div class="post">
-			<h2 class="mt-0">About The Project</h2>
+			<h2 class="mt-0 mb-3 text-5xl">About The Project</h2>
 			{{ .Content }}
 			<div class="text-center mt-7">
 				<img src="{{ .Site.Params.ogimage | absURL }}" class="w-full sm:w-full md:max-w-md lg:max-w-md" alt="Artwork">
